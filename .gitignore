@@ -1,0 +1,41 @@
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔧 Virtual environments
+venv/
+.env/
+.venv/
+
+# 📦 Installed packages (rare but safe)
+site-packages/
+
+# 📝 Logs (Uvicorn logs etc.)
+*.log
+
+# 🗄️ Database (if using SQLite later)
+*.db
+
+# ⚙️ Environment variables
+.env
+
+# 🧪 Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🧠 IDE files
+.vscode/
+.idea/
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 🚀 Uvicorn reload files (if any)
+*.reload
+
+# 🔐 Secrets
+*.key
+*.pem
